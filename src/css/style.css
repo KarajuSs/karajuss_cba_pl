@@ -1,0 +1,99 @@
+/* ogólne ------------------ */
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+
+#wiad, #wiad_pm {
+  text-align: center;
+}
+#wiad {
+  background: #EB7260;
+}
+#wiad_pm {
+  background: #65D965;
+}
+
+#wrapper {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  /*background-color:	#efffff;*/
+  transform: translateY(-50%);
+}
+#PA, #PM {
+  width: 100%;
+  background: #A8A8A8;
+  color: white;
+}
+#rozmiar_slidera {
+  width: 100%;
+}
+#lewy_panel_kontrolny {
+  width: 25%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #EB7260;
+  float: left;
+}
+#prawy_panel {
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #EFD7DD;
+  float: left;
+}
+#lewy_panel_kontrolny_pm {
+  width: 25%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #65D965;
+  float: left;
+}
+#prawy_panel_pm {
+  width: 75%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: #A5E9A5;
+  float: left;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+.linia {
+  border-bottom: 0px solid lime;
+}
+
+
+
+/*
+ logo ------------
+header { height:100px;   background: #354458; margin: 0 0 10px 0; }
+header h1 {padding: 20px; color: #E9E0D6;}
+
+ tresc ------------
+#content { width:75%; background: #EB7260; float:left; padding:1%; overflow:hidden; }
+
+ menu ------------
+#menu {   background: #548BC2; width:20%; float:right; padding:1%; overflow:hidden; }
+#menu h5 { padding:3px 3px 15px 3px; font-size:14px; }
+#menu ul li { list-style-type:none; padding:0 0 0 10px; }
+
+@media only screen and (max-width: 900px) {
+   #menu { width:88%; position:absolute; height:30px; }
+   #menu h5 { display: none; }
+   #menu ul li { display: inline; }
+   #menu ul li:after { content: " |"; }
+   #content { width: 98%;position:relative; top: 30px;margin-top:5%; }
+}
+#dialog { color: red; }
+*/
