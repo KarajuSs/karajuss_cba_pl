@@ -6,12 +6,10 @@
 
     if($_SESSION["zalogowany"] == 1) {
       include('panel/zalogowany.php');
-  ?>
-
-  <?php
     } else {
       include('first_page.php');
     }
+
     include('src/footer-scripts.php');
     ob_end_flush();
   ?>

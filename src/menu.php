@@ -31,7 +31,7 @@
       Witaj,
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-          <a class="mr-sm-2 nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="mr-sm-2 nav-link dropdown-toggle" href="profile/index.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <?php
               if($ranga == 1) {
                 if($imie == "" || $imie == null)
