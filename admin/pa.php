@@ -13,32 +13,14 @@
   if($_SESSION["zalogowany"] == 1) {
 ?>
 <body>
-  <?php include('../src/menu.php'); ?>
   <div id="box">
     <div id="wiad"> Witaj w panelu administracyjnym! </div>
     <hr/>
     <div id="lewy_panel_kontrolny">
-      <ul>
-        <li><a href=""> Sprawdz listę użytkowników </a></li>
-        <li><a href=""> Test </a></li>
-        <li><a href=""> Test </a></li>
-        <li><a href=""> Test </a></li>
-        <li><a href=""> Test </a></li>
-        <li><a href=""> Test </a></li>
-        <li><a href=""> Test </a></li>
-        <li><a href=""> Test </a></li>
-      </ul>
+      <?php include('pa/menu.html'); ?>
     </div>
     <div id="prawy_panel">
-      <ol>
-      <?php
-        $zapyt="SELECT * FROM users;";
-        $lista=mysqli_query($con,$zapyt);
-        while($wiersz=mysqli_fetch_assoc($lista)){
-          echo '<li>'.$wiersz['login'].' posiada uprawnienia typu: '.$wiersz['uprawnienia'].'</li>';
-        }
-      ?>
-      <ol>
+
     </div>
   </div>
   <?php
